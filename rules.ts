@@ -46,6 +46,18 @@ const rules: KarabinerRules[] = [
     ],
   },
   ...createHyperSubLayers({
+    h: {
+      to: [{ key_code: "left_arrow" }],
+    },
+    j: {
+      to: [{ key_code: "down_arrow" }],
+    },
+    k: {
+      to: [{ key_code: "up_arrow" }],
+    },
+    l: {
+      to: [{ key_code: "right_arrow" }],
+    },
     // o = "Open" applications
     o: {
       g: app("Google Chrome"),
